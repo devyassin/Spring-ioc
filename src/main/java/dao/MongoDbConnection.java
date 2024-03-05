@@ -1,8 +1,9 @@
 package dao;
 
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
-@Component
+@Repository
 public class MongoDbConnection implements IDataBaseConnection{
     @Override
     public double getData() {
